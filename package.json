@@ -1,0 +1,16 @@
+{
+  "name": "empty-apostrophe",
+  "version": "1.0.0",
+  "description": "Empty ApostropheCMS 4.x project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "apostrophe": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ data.page.title }} | {{ data.global.siteTitle }}</title>
+  {% block stylesheets %}{% endblock %}
+</head>
+<body>
+  <div class="site-wrapper">
+    {% block beforeMain %}{% endblock %}
+    {% block main %}{% endblock %}
+    {% block afterMain %}{% endblock %}
+  </div>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
